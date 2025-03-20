@@ -1,0 +1,139 @@
+/* Basic styling for the Employee Directory component */
+.employee-directory {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+/* Search container styling */
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center; /* Center the search bar horizontally */
+    align-items: center; /* Align the search bar vertically */
+  }
+  
+  .search-container input {
+    padding: 10px 15px;
+    width: 250px; /* You can adjust the width as needed */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Focus state for the search input */
+  .search-container input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3); /* Soft green glow */
+  }
+  
+  /* Optional: Add a label or icon inside the search bar */
+  .search-container input::placeholder {
+    color: #888;
+    font-style: italic;
+  }
+  /* Pagination Container */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination button:disabled {
+    background-color: #f1f1f1;
+    cursor: not-allowed;
+  }
+  
+  .pagination .active {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #c82333;
+  }
